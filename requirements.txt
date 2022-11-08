@@ -1,0 +1,17 @@
+urllib3
+dill
+scikit-learn
+keras==2.9.0
+tensorflow-gpu==2.9.2
+tensorflow-addons==0.17.1
+numpy
+scipy
+h5py==3.7
+pandas
+matplotlib
+seaborn
+tables
+scanpy
+anndata
+tqdm
+mpire

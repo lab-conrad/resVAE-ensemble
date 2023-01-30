@@ -6,6 +6,8 @@ A very brief demo is shown here, please check it out: [Demo.ipynb](https://githu
 
 The documentations will be updated shortly, in the meantime please check out the original [resVAE's notebook](https://github.com/lab-conrad/resVAE/blob/main/Example_notebook.ipynb) as well.
 
+If you need any help or guidance, please do not hesitate to post in the [Discussions](https://github.com/lab-conrad/resVAE-ensemble/discussions) section.
+
 ## Getting started
 
 ### Prerequisites and installation

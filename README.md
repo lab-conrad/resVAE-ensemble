@@ -7,7 +7,7 @@ Give it a try if you:
 1. Have feature-barcode matrix data (scRNA-seq counts, scATAC-seq peaks, output from CellRanger etc)
 2. Have some sort of annotations for each barcode/cells (cell type, cluster ID, sample ID, pathology, phenotype, treatment, ...)
 3. Want to extract gene sets that characterize the given annotation(s), e.g.: lists of genes that characterize phenotype A, B, C
-4. Want to use these genes for further analyses or investigations
+4. Want to use these genes for further analyses or investigations, especially if you are already using Seurat, Scanpy, Signac, ...
 
 ## Background
 

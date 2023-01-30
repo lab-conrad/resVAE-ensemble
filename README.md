@@ -1,6 +1,6 @@
-# resVAE-ensemble
+# resVAE ensemble
 
-resVAE-ensemble is the successor of [resVAE](https://github.com/lab-conrad/resvae) that utilizes rank aggregation with ensemble, among other improvements.
+resVAE ensemble is the successor of [resVAE](https://github.com/lab-conrad/resvae) that utilizes rank aggregation with ensemble, among other improvements.
 
 A very brief demo is shown here, please check it out: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb)
 
@@ -27,7 +27,7 @@ You should then be able to run the included `Demo.ipynb`.
 
 ## References and citations
 
-If you find resVAE-ensemble useful, please do cite us:
+If you find resVAE ensemble useful, please do cite us:
 
 * Ten, F.W., Yuan, D., Jabareen, N. et al. Unsupervised identification of gene sets in multi-modal single-cell sequencing data using deep ensembles. Front. Cell Dev. Biol. 11:1091047 (2023). doi: 10.3389/fcell.2023.1091047
 

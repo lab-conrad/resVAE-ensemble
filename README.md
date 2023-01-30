@@ -2,13 +2,21 @@
 
 resVAE ensemble is the successor of [resVAE](https://github.com/lab-conrad/resvae) that utilizes rank aggregation with ensemble, among other improvements.
 
+Give it a try if you:
+
+1. Have feature-barcode matrix data (scRNA-seq counts, scATAC-seq peaks, output from CellRanger etc)
+2. Have some sort of annotations for each barcode/cells (cell type, cluster ID, sample ID, pathology, phenotype, treatment, ...)
+3. Want to extract gene sets that characterize the given annotation(s), e.g.: lists of genes that characterize phenotype A, B, C
+4. Want to use these genes for further analyses or investigations
+
+## Getting started
+
 A very brief demo is shown here, please check it out: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb)
 
 The documentations will be updated shortly, in the meantime please check out the original [resVAE's notebook](https://github.com/lab-conrad/resVAE/blob/main/Example_notebook.ipynb) as well.
 
 If you need any help or guidance, please do not hesitate to post in the [Discussions](https://github.com/lab-conrad/resVAE-ensemble/discussions) section.
 
-## Getting started
 
 ### Prerequisites and installation
 

@@ -1,2 +1,0 @@
-name = 'resVAE-ensemble'
-

@@ -10,13 +10,13 @@ Give it a try if you:
 3. Want to extract gene sets that characterize the given annotation(s), e.g.: lists of genes that characterize phenotype A, B, C
 4. Want to use these genes for further analyses or investigations, especially if you are already using Seurat, Scanpy, Signac, ...
 
-**🚀 Get started now: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb)**
+**🚀 Get started now: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb) | [Documentation](http://singlecell.charite.de/resvae-ensemble)**
 
 **✨ [Publication](https://www.frontiersin.org/articles/10.3389/fcell.2023.1091047/full)**
 
 ## Getting started
 
-The documentations will be updated shortly, in the meantime please check out the original [resVAE's notebook](https://github.com/lab-conrad/resVAE/blob/main/Example_notebook.ipynb) as well.
+The [documentation](http://singlecell.charite.de/resvae-ensemble) while available is still being worked on, so in the meantime please check out the original [resVAE's notebook](https://github.com/lab-conrad/resVAE/blob/main/Example_notebook.ipynb) as well.
 
 ### Prerequisites and installation
 

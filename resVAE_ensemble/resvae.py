@@ -866,6 +866,7 @@ def main():
     parser.add_argument('--classes', '-y', help='Path to the class file', type=str)
     parser.add_argument('--model_dir', '-d', help='Path to model output directory', type=str)
     parser.add_argument('--model_name', '-n', help='Model base name', type=str)
+    parser.add_argument('--ensemble', '-e', help='Number of models for ensemble', type=int)
     parser.add_argument('--write_weights', '-s', help='True or False; whether to write the weight mappings', type=bool)
     args = parser.parse_args()
     assert os.path.isfile(args.config), print('configuration file does not exist')

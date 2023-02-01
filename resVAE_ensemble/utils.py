@@ -429,12 +429,29 @@ def train_ensemble(counts,
                     n_runs,
                     model_name,
                     model_dir):
-    
+    """Train resVAE ensemble
+
+    Args:
+        counts (np.ndarray): counts matrix
+        encodings (np.ndarray): one-hot encoded label encodings
+        labels (list): labels list
+        genes (list): genes list
+        config (dict): config file
+        n_runs (int): number of models to train. Defaults to 1.
+        model_name (str): name for the model, used in file names
+        model_dir (str): path to save the models
+
+    Returns:
+        
+    """
+    import gc
     from tensorflow.keras import backend as K
     from .resvae import resVAE
 
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
+    
+    assert n_runs >= 1, print('`n_runs` should be >= 1!')
     
     for i in range(n_runs):
         try:
@@ -478,7 +495,7 @@ def load_multirun(mname: str, in_dir: str = 'data/models', out_dir: str = 'data/
         as_df (bool, optional): return as pd.DataFrame or dict. Defaults to True.
 
     Returns:
-        pd.DataFrame: df of the
+        pd.DataFrame: DataFrame of the specified weights
     """
     import tensorflow as tf
     from .resvae import resVAE

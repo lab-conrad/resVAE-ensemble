@@ -8,11 +8,10 @@ Give it a try if you:
 2. Have some sort of annotations for each barcode/cells (cell type, cluster ID, sample ID, pathology, phenotype, treatment, ...)
 3. __Especially if you have partial cell state/type/identity etc__
 3. Want to extract gene sets that characterize the given annotation(s), e.g.: lists of genes that characterize phenotype A, B, C
-4. Want to use these genes for further analyses or investigations, especially if you are already using Seurat, Scanpy, Signac, ...
+4. Want to use these genes for further analyses or investigations, especially if you are already using Seurat, Scanpy, Signac, or any of your own analysis workflow!
 
-**🚀 Get started now: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb) | [Documentation](http://singlecell.charite.de/resvae-ensemble)**
-
-**✨ [Publication](https://www.frontiersin.org/articles/10.3389/fcell.2023.1091047/full)**
+**🚀 Get started now: [Demo.ipynb](https://github.com/fwten/resVAE-ensemble/blob/main/Demo.ipynb) | [Documentation](http://singlecell.charite.de/resvae-ensemble) | 
+[✨ Publication](https://www.frontiersin.org/articles/10.3389/fcell.2023.1091047/full)**
 
 ## Getting started
 
@@ -42,7 +41,7 @@ Feature identification and manual inspection is currently still an integral part
 
 If you find resVAE ensemble useful, please do cite us:
 
-* Ten, F.W., Yuan, D., Jabareen, N. et al. Unsupervised identification of gene sets in multi-modal single-cell sequencing data using deep ensembles. Front. Cell Dev. Biol. 11:1091047 (2023). doi: 10.3389/fcell.2023.1091047
+* Ten, F.W., Yuan, D., Jabareen, N. et al. resVAE ensemble: Unsupervised identification of gene sets in multi-modal single-cell sequencing data using deep ensembles. Front. Cell Dev. Biol. 11:1091047 (2023). doi: 10.3389/fcell.2023.1091047
 
 * Lukassen, S., Ten, F.W., Adam, L. et al. Gene set inference from single-cell sequencing data using a hybrid of matrix factorization and variational autoencoders. Nat Mach Intell 2, 800–809 (2020). doi: 10.1038/s42256-020-00269-9
 

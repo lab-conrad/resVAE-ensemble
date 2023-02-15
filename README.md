@@ -19,6 +19,8 @@ The [documentation](http://singlecell.charite.de/resvae-ensemble) while availabl
 
 ### Prerequisites and installation
 
+_**Note: This implementation is based on Tensorflow 2 Keras**_
+
 At the moment, it is recommended to create a new conda environment, clone this repository and then install the dependencies in this conda environment.
 
 1. `conda create -n resvae python=3.10`
